@@ -1,0 +1,84 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: blue;
+}
+
+.family-img {
+  text-align: center;
+  height: 50vh;
+  border: 3px solid green;
+}
+
+#header {
+  text-align: right;
+  border: solid green;
+}
+
+/* clearfix */
+#header:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.header {
+  display: inline-block;
+}
+
+#inner-container {
+  margin: 20px;
+}
+
+#logo-navbar-container {
+  width: 100%;
+  height: 71px;
+}
+
+#logo {
+  float: left;
+  width: 316px;
+}
+
+#navbar {
+  float: left;
+  border: solid red;
+  margin-bottom: 20px;
+}
+
+.navbar {
+  display: inline-block;
+}
+
+#outer-container {
+  margin: 20px auto;
+  padding: 20px;
+  width: 90%;
+  max-width: 1000px;
+  background-color: white;
+  display: block;
+}
+
+p {
+  margin: 10px;
+}
+
+#reviews-header {
+  text-align: center;
+}
+
+.row {
+  float: left;
+  width: 200px;
+  height: 100%;
+  border: solid red;
+}
+
+#row-container {
+  margin: 20px auto;
+  height: 250px;
+}
